@@ -1,0 +1,41 @@
+.grid img{
+    border: 2px solid red;
+    border-radius: 50px;
+}
+
+.oragami{
+    border-radius: 20px ;
+    background-color: orange;
+    width: 310px;
+    padding: 30px;
+    margin: 25px;
+    font-family: fantasy;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: aquamarine;
+}
+
+body{
+    margin: 0px;
+    background-color: greenyellow;
+}
+
+a:link{
+color:royalblue
+}
+
+a:visited{
+color: orchid;
+}
+
+.oragami:hover{
+    transform: scale(1.2);
+}
